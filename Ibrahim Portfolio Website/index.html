@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ibrahim Khaliq | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Ibrahim Khaliq, Computer Science and Mathematical Economics student focused on software engineering and machine learning."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-dot"></div>
+        <span class="logo-text">Ibrahim Khaliq</span>
+      </div>
+
+      <nav class="nav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link nav-link-pill">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="page">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <p class="hero-tag">Computer Science · Mathematical Economics</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="accent">Ibrahim</span>.
+        </h1>
+        <p class="hero-subtitle">
+          Sophomore at the University of Richmond building software, APIs, and
+          machine learning systems that actually ship, not just live in
+          notebooks.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+
+        <div class="hero-links">
+          <a
+            href="https://github.com/ibikhaliq"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ibrahim-khaliq-4a8809289/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+          <a href="mailto:ibrahim.khaliq@richmond.edu">
+            Email ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-row">
+          <span class="hero-label">Current</span>
+          <span class="hero-pill">Innovation Fellow @ RIF</span>
+        </div>
+        <div class="hero-card-row">
+          <span class="hero-label">Focus</span>
+          <span>ML pipelines · FastAPI · Data-driven products</span>
+        </div>
+        <div class="hero-card-row">
+          <span class="hero-label">Location</span>
+          <span>Richmond, VA · Open to internships</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Education -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <h2>About</h2>
+        <p>Who I am and what I'm trying to build.</p>
+      </div>
+
+      <div class="grid-2">
+        <div>
+          <p class="body-text">
+            I'm a sophomore at the <strong>University of Richmond</strong>,
+            pursuing a double major in <strong>Computer Science</strong> and
+            <strong>Mathematical Economics</strong>. I like working at the
+            intersection of software engineering, data, and machine learning,
+            especially when it touches real users or money.
+          </p>
+          <p class="body-text">
+            Recently, I've been building <strong>end-to-end ML systems</strong>
+            with FastAPI backends, REST APIs, and lightweight front-ends using
+            Streamlit. I enjoy taking messy data, turning it into something
+            clean, and shipping models that are explainable and deployable.
+          </p>
+          <p class="body-text">
+            When I'm not debugging something, I'm usually working with
+            founders through <strong>Richmond Innovation Fellows</strong> or
+            supporting residents as a <strong>Resident Assistant</strong>.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Education</h3>
+          <div class="edu-entry">
+            <div class="edu-main">
+              <span class="edu-school">University of Richmond (UR)</span>
+              <span class="edu-date">May 2028</span>
+            </div>
+            <p class="edu-detail">
+              B.S. in Computer Science &amp; Mathematical Economics
+            </p>
+            <p class="edu-detail">
+              GPA: 3.58 · Dean’s List (Fall 2024)
+            </p>
+            <p class="edu-detail">
+              Relevant Courses: Data Structures, Introduction to Computing,
+              Linear Algebra, Calculus I–III
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Tools I actually use, not just list on a PDF.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3 class="card-title">Languages</h3>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Java</span>
+            <span class="pill">SQL</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript (basic)</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Data Science &amp; ML</h3>
+          <p class="card-text">
+            Scikit-learn, Pandas, NumPy, Seaborn, Matplotlib, OpenCV, and
+            <strong>end-to-end ML pipelines</strong> from data preprocessing to
+            model training, evaluation, and deployment prep.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Frameworks &amp; Tools</h3>
+          <div class="pill-row">
+            <span class="pill">FastAPI</span>
+            <span class="pill">REST APIs</span>
+            <span class="pill">Streamlit</span>
+            <span class="pill">Jupyter</span>
+            <span class="pill">Git &amp; GitHub</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Concepts</h3>
+          <p class="card-text">
+            Machine Learning (classification, regression, computer vision),
+            Data Cleaning, Feature Engineering, Data Visualization,
+            Software Testing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p>Places I've learned to ship and not break everything.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Innovation Fellow</h3>
+            <p class="timeline-org">
+              Richmond Innovation Fellows (RIF), University of Richmond
+            </p>
+            <p class="timeline-date">Jan 2025 – Present</p>
+          </div>
+          <ul class="timeline-list">
+            <li>
+              Selected for a competitive fellowship bridging students with tech
+              leaders from companies like OpenAI, Cisco, and Roku.
+            </li>
+            <li>
+              Collaborate in teams to design and pitch tech-driven
+              entrepreneurial solutions using frameworks such as Doblin’s Ten
+              Types of Innovation.
+            </li>
+            <li>
+              Work with venture capitalists, founders, and engineers to refine
+              product–market fit, scalability, and presentation skills.
+            </li>
+            <li>
+              Apply design thinking, prototyping, and data-driven decision
+              making to evaluate real-world startup challenges.
+            </li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Software Intern</h3>
+            <p class="timeline-org">TXL Software House · Lahore, Pakistan</p>
+            <p class="timeline-date">May 2020 – Aug 2020</p>
+          </div>
+          <ul class="timeline-list">
+            <li>
+              Participated in daily Agile/Scrum stand-ups and contributed to
+              backlog management for multiple client projects.
+            </li>
+            <li>
+              Created user manuals and technical documentation for software
+              projects, improving client adoption and usability.
+            </li>
+            <li>
+              Worked with UI/UX designers to align technical implementation with
+              user requirements.
+            </li>
+            <li>
+              Assisted in debugging, QA processes, and issue tracking to improve
+              reliability.
+            </li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Software Intern</h3>
+            <p class="timeline-org">Nextbridge Software House · Lahore, Pakistan</p>
+            <p class="timeline-date">May 2021 – Aug 2021</p>
+          </div>
+          <ul class="timeline-list">
+            <li>
+              Supported development projects using Python, Java, and SQL across
+              client deliverables.
+            </li>
+            <li>
+              Partnered with 20+ clients to gather requirements, provide
+              updates, and tailor solutions.
+            </li>
+            <li>
+              Contributed to code reviews, debugging, and testing, improving
+              reliability and coding standards.
+            </li>
+            <li>
+              Completed workshops on backend development and database
+              management to strengthen technical depth.
+            </li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Resident Assistant (RA)</h3>
+            <p class="timeline-org">Richmond College, University of Richmond</p>
+            <p class="timeline-date">Aug 2025 – Present</p>
+          </div>
+          <ul class="timeline-list">
+            <li>Mentor and community lead for 30+ residents in Marsh Hall.</li>
+            <li>
+              Build inclusive community and enforce policy through meaningful
+              relationships.
+            </li>
+            <li>
+              Organize social and educational programs alongside other RAs.
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Select work that represents how I think and build.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Titanic Survival Prediction System</h3>
+            <span class="project-tag">ML · FastAPI · Streamlit</span>
+          </div>
+          <p class="project-text">
+            Built an end-to-end ML pipeline using Gradient Boosting with
+            GridSearchCV to predict Titanic passenger survival. Deployed a
+            FastAPI backend with a Streamlit front-end for real-time
+            predictions, engineered features, and clear model visualizations.
+          </p>
+          <ul class="project-list">
+            <li>Data preprocessing, feature engineering, and model tuning.</li>
+            <li>REST API for prediction requests using FastAPI.</li>
+            <li>
+              User-facing dashboard in Streamlit for non-technical users.
+            </li>
+          </ul>
+          <a
+            href="https://github.com/ibikhaliq"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            View on GitHub ↗
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <h3>FastAPI CRUD Application</h3>
+            <span class="project-tag">Backend · REST APIs</span>
+          </div>
+          <p class="project-text">
+            Designed a RESTful API for task management with full CRUD
+            operations and flexible query parameters. Implemented Pydantic-based
+            data validation and tested endpoints with Postman to ensure
+            reliability and clear error handling.
+          </p>
+          <ul class="project-list">
+            <li>Clean separation of models, schemas, and routes.</li>
+            <li>Robust validation and error responses with Pydantic.</li>
+            <li>Ready to plug into front-ends or other services.</li>
+          </ul>
+          <a
+            href="https://github.com/ibikhaliq"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            View on GitHub ↗
+          </a>
+        </article>
+
+        <!-- Add more project cards here as you build them -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>For internships, collaborations, or good problems to solve.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <p class="body-text">
+            The fastest way to reach me is by email, but I’m also active on
+            GitHub and LinkedIn. If you have a project involving ML, backend
+            APIs, or data-heavy products, I’m interested.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:ibrahim.khaliq@richmond.edu" class="contact-pill">
+              ibrahim.khaliq@richmond.edu
+            </a>
+            <a
+              href="https://github.com/ibikhaliq"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-pill"
+            >
+              github.com/ibikhaliq
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ibrahim-khaliq-4a8809289/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-pill"
+            >
+              LinkedIn profile
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="What would you like to work on?"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Send (mock) message
+          </button>
+          <p class="form-note">
+            This form is front-end only. Wire it to your backend or email
+            service when you're ready.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Ibrahim Khaliq. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
